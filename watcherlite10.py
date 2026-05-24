@@ -322,7 +322,7 @@ def build_dashboard(state: DetectorState) -> Layout:
 # Main function
 
 def main():
-	parser = argparse.ArgumentParser(description="Network Sentinel — live terminal dashboard")
+	parser = argparse.ArgumentParser(description="Watcher Lite — live terminal dashboard")
 	parser.add_argument("-i", "--interface", default=None,
 		help="Network interface (e.g. eth0). Default: auto.")
 	parser.add_argument("--pcap", default=None,
@@ -375,7 +375,7 @@ def main():
 		console.print("\n[bold red]Stopped.[/]  "
 			f"Packets analyzed: [cyan]{state.packet_count:,}[/]  |  "
 			f"Alerts fired: [red]{state.alert_count}[/]")
-		console.print(f"[dim]Full log saved to: logs/sentinel.log[/]\n")
+		console.print(f"[dim]Full log saved to: logs/watcher_1_0.log[/]\n")
 		logger.info(f"Session ended. Packets: {state.packet_count}, Alerts: {state.alert_count}")
 
 
