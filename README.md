@@ -1,20 +1,26 @@
 Patrick Turner
 CSC 842-DT1
 Dr. Welu
-5/24/2026
+06/04/2026
 
-Watcher Lite 1.0
+Watcher Lite 1.1
 
 Watcher lite is a lightweight system designed to sit behind a firewall to provide a second level of security for
 a local network.
 
-Tool1
+New files include:
 
-watcherlite10.py - python tool
+watcherlite1_1.py - new (modified) python tool.
 
-Documentation - tool documentation
+Watcher_lite_1_1_Documentation - tool documentation.
 
-/ai subdirectory - contains initial interaction with Claude and the origninal file provided by Claude
+bad_ips.txt - list of three RFC5737 addresses that can be excluded from scan.
+
+installation.txt - text file on installing Watcherlite 1.1.
+
+requirements.txt - text file on requirements to run Watcherlite 1.1.
+
+UDP scan - screenshot of watcherlite 1.1 alerting on a UDP scan.
 
 Email me at patrick.turner@trojans.dsu.edu with any questions or concerns.
 
